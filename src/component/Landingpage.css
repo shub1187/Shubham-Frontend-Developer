@@ -1,0 +1,126 @@
+*{
+    margin:0%;
+}
+#Outer{
+    width:100%;
+    height: 100vh;
+}
+#Navbar{
+    height: 10%;
+    width: 100%;
+    background-color:#251B37;
+    color: #FFECEF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+#rockets{
+    width:60%;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+#main-body{
+    text-align: center;
+    width:100%;
+    height: 90%;
+    display: flex;
+}
+#left{
+    height: 100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+#img1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#img2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right{
+    height: 100%;
+    width:50%;
+    box-sizing: border-box;
+}
+#header{
+    height: 20%;
+    width: 100%;
+    background-color:#FFECEF;
+    border: 2px solid lightgray;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info{
+    height:70%;
+    width: 100%;
+    background-color: #251B37;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#basic{
+    height: 80%;
+    width: 40%;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    border: solid 2px #251B37;
+    border-radius: 10px;
+}
+#engine{
+    height: 80%;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid #251B37 ;
+}
+.row{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    background-color: #FFECEF;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.headings{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCACA;
+    border-radius: 10px;
+}
+#footer{
+    height: 10%;
+    width: 100%;
+    background-color:#FFECEF;
+    color:#251B37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
